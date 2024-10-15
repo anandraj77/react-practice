@@ -1,10 +1,10 @@
-import { PokemonCards } from './components/hooks/useEffect/PokemonCards'
+
+import UseCallback from "./components/hooks/Memo/UseCallback"
 
 export const App = () => {
   return (
-    <section>
-      <PokemonCards />
-    </section>
+    <>
+      <UseCallback />
+    </>
   )
 }
-
