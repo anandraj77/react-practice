@@ -191,3 +191,52 @@ button[type="submit"]:active {
         padding: 12px;
     }
 }
+
+
+
+.records-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.list{
+    flex-basis: 25%;
+    list-style-type: none;
+}
+
+.list img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    mix-blend-mode: multiply
+}
+
+.pagination{
+    margin-top: 50px;
+}
+
+.pagination ul{
+    display: flex;
+    justify-content: center;
+}
+.pagination li{
+    list-style-type: none;
+    background: #fff;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pagination a{
+    text-decoration: none;
+    color: #000;
+}
+
+.pagination li:hover{
+    background-color: #256fe6;
+}
+
+.pagination li:hover a{
+    color: #fff;
+}
